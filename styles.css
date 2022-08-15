@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'DynaPuff', cursive;
+}
 body{
     align-items: center;
     justify-content: center;
@@ -15,6 +17,7 @@ h1{
     font-size: 4rem;
     color: #DDE8F0;
     font-family: 'Rubik Distressed', cursive;
+    margin-bottom: 4rem;
 }
 .main-container{
     position: absolute;
@@ -22,7 +25,34 @@ h1{
     top: 50%;
     left: 50%;
     background-color: #DDE8F0;
-    width: 50%;
-    height: 50%;
-    border-radius: 10%;
+    border-radius: 25px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 1em 3em rgba(2,9, 38, 0.25);
+}
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 2em;
+}
+.search input{
+    font-size: 1.5rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0.6em 0.3em;
+    background-color: #DDE8F0;
+    border-bottom: 2px solid #004581;
+}
+.search input:focus{
+    border-bottom: 2px solid #DDE8F0;
+}
+#search-btn{
+    outline: none;
+    font-size: 1.3em;
+    border: none;
+    background-color: #97CBDC;
+    border-radius: 20px;
 }
