@@ -1,11 +1,28 @@
+
 body{
+    align-items: center;
+    justify-content: center;
     padding: 0;
     height: 100vh;
-    width: 100vh;
     margin: 0;
     box-sizing: border-box;
     background: linear-gradient(to bottom right,#004581,#01BABD,#97CBDC 80%,#DDE8F0);
 }
-.h1{
-    
+h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #DDE8F0;
+    font-family: 'Rubik Distressed', cursive;
+}
+.main-container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #DDE8F0;
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
 }
